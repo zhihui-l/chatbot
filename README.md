@@ -1,4 +1,4 @@
-## Chatbot Application
+## AI Chatbot Application
 
 This is a chatbot application built using React and Node.js with OpenAI GPT API. The application allows users to interact with an AI-powered assistant using a chat interface.
 
