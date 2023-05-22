@@ -2,9 +2,11 @@ import { Configuration, OpenAIApi } from "openai";
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
+import {apiKey} from "./config.js";
 
 const app = express();
 const port = 3000;
+
 
 // Middleware setup
 app.use(bodyParser.json());
@@ -12,8 +14,9 @@ app.use(cors());
 
 // OpenAI configuration
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: apiKey,
 });
+
 const openai = new OpenAIApi(configuration);
 
 // Handle POST request
