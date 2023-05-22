@@ -1,5 +1,6 @@
 ## AI Chatbot Application
 
+![Chatbot Application](frontend/app.png)
 This is a chatbot application built using React and Node.js with OpenAI GPT API. The application allows users to interact with an AI-powered assistant using a chat interface.
 
 ### Frontend (React)
@@ -39,6 +40,6 @@ To run the application, follow these steps:
 7. Start the backend server by running the command `node index.js` in the backend directory.
 8. Navifate into the `frontend` folder `cd frontend`
 9. Install the dependencies ``npm install``
-10. Start the local server by running the command `npm run dev` in the `frontend` directory.
+10. Start the local server by running the command `npm start` in the `frontend` directory.
 11. Access the application in your web browser.
 
