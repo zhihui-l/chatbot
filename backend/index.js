@@ -5,7 +5,7 @@ import cors from "cors";
 import {apiKey} from "./config.js";
 
 const app = express();
-const port = 4000;
+const port = 3000;
 
 
 // Middleware setup
